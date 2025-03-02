@@ -65,7 +65,7 @@ st.subheader("Contoh Data Gabungan")
 st.write(dataset_df.head()) 
 
 else:
-    st.warning(Silakan upload semua dataset terlebih dahulu!")
+    st.warning("Silakan upload semua dataset terlebih dahulu!")
 """**Insight:**
 - karena saya akan menganalisa wilayah mana yang potensial untuk penempatan cabang toko baru, saya membutuhkan data customer dan order, jadi saya gabungkan keduanya.
 - untuk menganalisa apakah rating itu memengaruhi banyaknya order, maka pada tabel saya gabungkan tabel rating juga.
