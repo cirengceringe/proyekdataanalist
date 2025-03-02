@@ -60,7 +60,7 @@ if uploaded_customers and uploaded_orders and uploaded_rating and uploaded_items
     st.write(item_df.head())
     
 #merge data customer + order + rating + item
-dataset_df = customers_df.merge(orders_df, on='customer_id')\.merge(rating_df, on='order_id')\.merge(item_df, on='order_id')
+dataset_df = customers_df.merge(orders_df, on='customer_id').merge(rating_df, on='order_id').merge(item_df, on='order_id')
 st.subheader("Contoh Data Gabungan")
 st.write(dataset_df.head()) 
 
