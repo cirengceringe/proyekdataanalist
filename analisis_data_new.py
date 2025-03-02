@@ -64,7 +64,7 @@ dataset_df = customers_df.merge(orders_df, on='customer_id').merge(rating_df, on
 st.subheader("Contoh Data Gabungan")
 st.write(dataset_df.head()) 
 
-else:
+else
     st.warning("Silakan upload semua dataset terlebih dahulu!")
 """**Insight:**
 - karena saya akan menganalisa wilayah mana yang potensial untuk penempatan cabang toko baru, saya membutuhkan data customer dan order, jadi saya gabungkan keduanya.
