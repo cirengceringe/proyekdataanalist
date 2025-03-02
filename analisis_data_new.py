@@ -155,7 +155,7 @@ pelanggan_per_kota_sorted = pelanggan_per_kota.sort_values(by='customer_id', asc
 top_10_pelanggan = pelanggan_per_kota_sorted.head(10)
 Wilayah_top_10 = top_10_pelanggan['customer_city']
 jumlah_pelanggan_top_10 = top_10_pelanggan['customer_id']
-fig ax, = plt.subplots()
+fig, ax = plt.subplots()
 ax.bar(top_10_pelanggan['customer_city'], top_10_pelanggan['customer_id'])
 ax.set_xlabel('Wilayah')
 ax.set_ylabel('Jumlah Pelanggan')
