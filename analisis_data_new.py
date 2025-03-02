@@ -7,8 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BFJ5oSB7gvJMO9j9jGNXS3lsNk8ACA3T"""
 
 
-st.title("Proyek Analisis Data: Ecommerce Public Dataset")
-st.markdown("""- **Nama:** Farah Trijayanti
+("""- **Nama:** Farah Trijayanti
 - **Email:** leesunsheng11@gmail.com
 - **ID Dicoding:** [Input Username]
 
