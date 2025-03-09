@@ -170,6 +170,7 @@ st.pyplot(fig)
 print(dataset_df.columns)
 total_units_sold = dataset_df.groupby('product_id')['order_item_id'].count().reset_index()
 total_units_sold.rename(columns={'order_item_id': 'total_units_sold'}, inplace=True)
+dataset_df = dataset_df.merge(total_units_sold, on='product_id', how='left')
 
 print(dataset_df.head())
 print(total_units_sold.head())
