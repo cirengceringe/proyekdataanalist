@@ -172,6 +172,7 @@ total_units_sold = dataset_df.groupby('product_id')['order_item_id'].count().res
 total_units_sold.rename(columns={'order_item_id': 'total_units_sold'}, inplace=True)
 
 print(dataset_df.head())
+print(total_units_sold.head())
 
 print(dataset_df['review_score'].unique())
 
