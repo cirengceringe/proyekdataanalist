@@ -123,7 +123,7 @@ st.subheader("Mengurutkan Jumlah Rating per Order")
                
 rating_per_product = dataset_df.groupby('review_score')['product_id'].nunique().reset_index()
 rating_per_product = rating_per_product.sort_values(by='product_id', ascending=False)
-st.wrtite("Analisis Rating terhadap Penjualan Produk")
+st.write("Analisis Rating terhadap Penjualan Produk")
 st.dataframe(rating_per_product)
 
 #mencari korelasi
