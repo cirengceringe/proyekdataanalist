@@ -9,14 +9,28 @@ Proyek ini bertujuan untuk menganalisis data dari platform e-commerce untuk mema
 
 📂 Struktur Direktori
 
-submission
+Submission
 ├───dashboard
-| ├───main_data.csv
-| └───dashboard.py
-├───data
-| ├───data_1.csv
-| └───data_2.csv
-├───notebook.ipynb
+| ├───E-Commerce Public Dataset
+	├───Dokumen tanpa judul.docx
+ 	├───order_reviews_dataset.xlsx
+  	├───New Text Document.txt
+   	├───customers_dataset.csv
+    	├───geolocation_dataset.csv
+ 	├───order_items_dataset.csv
+  	├───order_payments_dataset.csv
+   	├───order_reviews_dataset.csv
+    	├───orders_dataset.csv
+ 	├───product_category_name_translation.csv
+  	├───products_dataset.csv
+   	└───sellers_dataset.csv
+| └───analisis_data_new.py
+├───Data
+| ├───order_items_dataset.csv
+| ├───order_reviews_dataset.csv
+  ├───orders_dataset.csv
+  └───customers_dataset.csv
+├───Copy_of_Proyek_Analisis_Data.ipynb
 ├───README.md
 └───requirements.txt
 └───url.txt
